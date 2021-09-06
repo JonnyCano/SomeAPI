@@ -1,0 +1,68 @@
+{
+    "psychotics": [
+        {
+            "psycho": "theOne",
+            "diagnosis": "alive",
+            "Level": "9999",
+            "personalityTraits": [
+                "eat",
+                "pray",
+                "kill"
+            ],
+            "petID": "777"
+        },
+        {
+            "psycho": "theReason",
+            "diagnosis": "fallen in love",
+            "Level": "1",
+            "personalityTraits": [
+                "die"
+            ],
+            "petID": "0"
+        },
+        {
+            "psycho": "faith",
+            "diagnosis": "killer",
+            "Level": "10",
+            "personalityTraits": [
+                "love",
+                "beauty",
+                "life"
+            ],
+            "petID": "111"
+        },
+        {
+            "psycho": "Jonny",
+            "diagnosis": "beast",
+            "Level": "0",
+            "personalityTraits": [
+                "love",
+                "human",
+                "gemini"
+            ],
+            "petID": "0"
+        },
+        {
+            "psycho": "heathen",
+            "diagnosis": "human",
+            "Level": "3",
+            "personalityTraits": [
+                "bottom",
+                "nerd",
+                "asian"
+            ],
+            "petID": "1"
+        },
+        {
+            "psycho": "italian",
+            "diagnosis": "domestic",
+            "Level": "2",
+            "personalityTraits": [
+                "bottom",
+                "stupid",
+                "drop out"
+            ],
+            "petID": "2"
+        }
+    ]
+}
