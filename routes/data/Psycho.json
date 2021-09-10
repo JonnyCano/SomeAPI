@@ -7,7 +7,7 @@
             "personalityTraits": [
                 "eat",
                 "pray",
-                "kill"
+                "die"
             ],
             "petID": "777"
         },
@@ -27,6 +27,7 @@
             "personalityTraits": [
                 "love",
                 "beauty",
+                "eat",
                 "life"
             ],
             "petID": "111"
@@ -49,12 +50,12 @@
             "personalityTraits": [
                 "bottom",
                 "nerd",
-                "asian"
+                "crass"
             ],
             "petID": "1"
         },
         {
-            "psycho": "italian",
+            "psycho": "thug",
             "diagnosis": "domestic",
             "Level": "2",
             "personalityTraits": [
