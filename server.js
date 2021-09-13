@@ -8,7 +8,7 @@ const exphbs = require('express-handlebars');
 const app = express();
 // change the port variable to something that can run on ports that are hosted by other environments
 // like heroku that run on 80 or 443
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 80;
 
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
