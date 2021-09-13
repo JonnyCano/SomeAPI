@@ -1,0 +1,3 @@
+DROP DATABASE IF EXISTS psycho;
+
+CREATE DATABASE psycho;

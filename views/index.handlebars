@@ -1,29 +1,12 @@
-<h1 class="text-center mb-3">{{title}}</h1>
-<form action="/api/psychos" method="POST" class="mb-4">
-<div class="form-group">
-    <label for="psycho">Psycho:</label>
-    <input type="text" name="psycho" class="form-control">
-</div>
-<div class="form-group">
-    <label for="diagnosis">Diagnosis:</label>
-    <input type="text" name="diagnosis" class="form-control">
-</div>
-<div class="form-group">
-    <label for="Level">Level:</label>
-    <input type="text" name="Level" class="form-control">
-</div>
-<div class="form-group">
-    <label for="personalityTraits">Personality Traits:</label>
-    <input type="text" name="personalityTraits" class="form-control">
-</div>
-<input style="margin-top: 3vh;" type="submit" value="Add Psycho" class="btn btn-primary btn-block">
-</form>
-<h4>Psychotics</h4>
-<ul style="list-style: none;" class="list-group">
-    {{#each psychotics}}
-        <a href="https://JonnyCano.github.io/brazil" role="button" class="btn btn-outline-danger"><li style="list-style: none;" class="list-group-item">Name: {{this.psycho}}</li>
-        <li style="list-style: none;" class="list-group-item">Diagnosis: {{this.diagnosis}}</li>
-        <li style="list-style: none;" class="list-group-item">Level: {{this.Level}}</li>
-        <li style="list-style: none;" class="list-group-item">Personality Traits: {{this.personalityTraits}}</li></a>
-    {{/each}}
-</ul>
+<section id="search" class="container row">
+    <div class="col-12-md col-12-lg">
+        <h1>Enter your password:</h1>
+        <form action="/" class="search-form">
+            <i class="fas fa-search"></i>
+            <input type="password" name="password">
+            <input type="submit" value="Enter">
+        </form>
+        <a href="/" class="btn btn-light mt-4">Visit Pet App</a>
+        <a href="/data/psychotics-routes" class="btn btn-light mt-4">Visit API</a>
+    </div>
+  </section>

@@ -1,0 +1,28 @@
+<h1 class="text-center mb-3">{{title}}</h1>
+<form action="/" method="POST" class="mb-4">
+<div class="form-group">
+    <label for="psycho">Psycho:</label>
+    <input type="text" name="psycho" class="form-control">
+</div>
+<div class="form-group">
+    <label for="diagnosis">Diagnosis:</label>
+    <input type="text" name="diagnosis" class="form-control">
+</div>
+<div class="form-group">
+    <label for="Level">Level:</label>
+    <input type="text" name="Level" class="form-control">
+</div>
+<div class="form-group">
+    <label for="personalityTraits">Personality Traits:</label>
+    <input type="text" name="personalityTraits" class="form-control">
+</div>
+<input style="margin-top: 3vh;" type="submit" value="Add Psycho" class="btn btn-primary btn-block">
+</form>
+<h4>Psychotics</h4>
+<ul style="list-style: none;" class="list-group">
+
+        <a href="https://JonnyCano.github.io/brazil" role="button" class="btn btn-outline-danger"><li style="list-style: none;" class="list-group-item">Name: {{psycho}}</li>
+        <li style="list-style: none;" class="list-group-item">Diagnosis: {{diagnosis}}</li>
+        <li style="list-style: none;" class="list-group-item">Level: {{Level}}</li></a>
+
+</ul>
