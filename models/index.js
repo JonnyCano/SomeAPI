@@ -3,7 +3,7 @@ const Pets = require('./Pets');
 // const Appointment = require('./Appointment');
 // const Description = require('./Description');
 
-module.exports = { Psychotics, Pets };
+// module.exports = { Psychotics, Pets };
 
 // create associations 
 Psychotics.hasMany(Pets, {

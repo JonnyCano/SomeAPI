@@ -2,22 +2,7 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
 // create our Pet model
-class Pets extends Model {
-//  static appointmentDate(body, models) {
-//   return models.Appointment.create({
-//     owner_id: body.owner_id,
-//     pet_id: body.pet_id
-//   }).then(() => {
-//     return Pet.findOne({
-//       where: {
-//         id: body.pet_id
-//       },
-//       attributes: ['id', 'name', 'type', 'breed', 'age', 'owner_id', [sequelize.literal('(SELECT COUNT(*) FROM appointment WHERE pet.id = appoinment.pet_id)'), 'appointment_count']
-//       ]  
-//     });
-//   });
-//  }
-}
+class Pets extends Model {}
 Pets.init(
   {
     id: {
